@@ -90,3 +90,12 @@ kubectl get all -n k8sgpt
 This installation guide is saved as `README.md` at the repository root.
 
 ---
+https://platform.openai.com/  
+
+k8sgpt auth add <yourkey> 
+
+k8sgpt auth list
+
+k8sgpt analyse --explain
+
+k8sgpt auth remove --backends=openai
