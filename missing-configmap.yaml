@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: missing-configmap-app
 spec:
+
   replicas: 1
   selector:
     matchLabels:
